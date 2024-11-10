@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#F39C12"  # Customize the primary color
+backgroundColor = "#FFFFFF"  # Set background to white for light mode
+secondaryBackgroundColor = "#F0F0F0"  # Light gray for secondary background
+textColor = "#000000"  # Set text color to black for contrast
+font = "sans serif"  # You can choose a different font if desired
