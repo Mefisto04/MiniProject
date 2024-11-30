@@ -7,7 +7,7 @@ from streamlit_folium import folium_static
 crop_data = pd.read_csv('crop_farm.csv')
 
 def create_crop_map():
-    crop_map = folium.Map(location=[20.5937, 78.9629], zoom_start=7)
+    crop_map = folium.Map(location=[20.5937, 78.9629], zoom_start=8)
     marker_cluster = MarkerCluster().add_to(crop_map)
 
     for _, row in crop_data.iterrows():
