@@ -6,7 +6,7 @@ from components.navigation import navigate_to
 from components.farm_check import get_crop_parameters, get_suitable_locations
 
 if 'page' not in st.session_state:
-    st.session_state.page = 'home'
+    st.session_state.page = 'analysis'
 
 def main():
     if st.session_state.page == 'home':
