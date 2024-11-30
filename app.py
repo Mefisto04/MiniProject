@@ -482,13 +482,13 @@ def plot_graph(x_param, y_param, graph_type):
     st.pyplot(plt)
 
 if 'page' not in st.session_state:
-    st.session_state.page = 'home'
+    st.session_state.page = 'analysis'
 
 def navigate_to(page):
     st.session_state.page = page
 
 def create_crop_map():
-    crop_map = folium.Map(location=[20.5937, 78.9629], zoom_start=5)  
+    crop_map = folium.Map(location=[20.5937, 78.9629], zoom_start=8)  
     marker_cluster = MarkerCluster().add_to(crop_map)
 
     for _, row in crop_data.iterrows():
